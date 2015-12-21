@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FHJAlarmDetailViewController">
+            <connections>
+                <outlet property="alarmOptionsTableview" destination="O7n-Ye-KuI" id="i19-6c-7Ac"/>
+                <outlet property="timePicker" destination="sk1-dL-8im" id="B4m-gr-WJ7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="sk1-dL-8im">
+                    <rect key="frame" x="0.0" y="78" width="320" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="5eg-V0-eBo"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="449265370.87553102">
+                        <!--2015-03-28 19:56:10 +0000-->
+                    </date>
+                </datePicker>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" directionalLockEnabled="YES" pagingEnabled="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="O7n-Ye-KuI">
+                    <rect key="frame" x="0.0" y="290" width="320" height="132"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="132" id="FNS-yc-mf8"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="k18-2N-FE0"/>
+                        <outlet property="delegate" destination="-1" id="Phy-NJ-0uQ"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="O7n-Ye-KuI" secondAttribute="trailing" id="3Df-Vf-OGk"/>
+                <constraint firstItem="O7n-Ye-KuI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7C5-Kr-2MK"/>
+                <constraint firstItem="sk1-dL-8im" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DIR-M7-qix"/>
+                <constraint firstItem="sk1-dL-8im" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="78" id="Eh1-xn-Bev"/>
+                <constraint firstAttribute="trailing" secondItem="sk1-dL-8im" secondAttribute="trailing" id="cv3-xx-cs9"/>
+                <constraint firstItem="O7n-Ye-KuI" firstAttribute="top" secondItem="sk1-dL-8im" secondAttribute="bottom" constant="50" id="sh8-Db-JMW"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="280" y="266"/>
+        </view>
+    </objects>
+</document>

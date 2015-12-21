@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FHJLoginViewController">
+            <connections>
+                <outlet property="continueButton" destination="InW-St-5AY" id="cMF-c7-xtv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome weakling. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMS-B8-qZM">
+                    <rect key="frame" x="8" y="216" width="304" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Dnf-IP-Wq7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set some alarms." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ii-iD-deM">
+                    <rect key="frame" x="93" y="264" width="134" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9eG-Sa-jLJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stop being a punk bitch." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHO-oI-WVT">
+                    <rect key="frame" x="66" y="312" width="189" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1Bc-I3-puP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InW-St-5AY">
+                    <rect key="frame" x="0.0" y="520" width="320" height="40"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="T8N-tD-79j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <state key="normal" title="Continue as guest">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="continueButton:" destination="-1" eventType="touchUpInside" id="ZYh-Yg-CfA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="InW-St-5AY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2Jb-kf-EIJ"/>
+                <constraint firstItem="2Ii-iD-deM" firstAttribute="centerX" secondItem="JMS-B8-qZM" secondAttribute="centerX" id="Kc0-v9-wyo"/>
+                <constraint firstItem="HHO-oI-WVT" firstAttribute="centerX" secondItem="InW-St-5AY" secondAttribute="centerX" id="Twr-Js-M4d"/>
+                <constraint firstItem="2Ii-iD-deM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XVA-4f-Ip7"/>
+                <constraint firstItem="HHO-oI-WVT" firstAttribute="top" secondItem="2Ii-iD-deM" secondAttribute="bottom" constant="8" symbolic="YES" id="YfZ-FW-2dr"/>
+                <constraint firstAttribute="trailing" secondItem="InW-St-5AY" secondAttribute="trailing" id="ehP-HR-Jmc"/>
+                <constraint firstItem="JMS-B8-qZM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="k2q-gI-Xyn"/>
+                <constraint firstItem="2Ii-iD-deM" firstAttribute="top" secondItem="JMS-B8-qZM" secondAttribute="bottom" constant="8" symbolic="YES" id="n56-JO-K8D"/>
+                <constraint firstAttribute="bottom" secondItem="InW-St-5AY" secondAttribute="bottom" constant="8" id="neJ-Ys-cUh"/>
+                <constraint firstItem="2Ii-iD-deM" firstAttribute="centerX" secondItem="HHO-oI-WVT" secondAttribute="centerX" id="ngS-st-Q2w"/>
+            </constraints>
+            <point key="canvasLocation" x="280" y="187"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

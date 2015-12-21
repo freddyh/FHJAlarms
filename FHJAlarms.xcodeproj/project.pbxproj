@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D16671B1AC73AE70005C5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16671A1AC73AE70005C5FF /* main.m */; };
+		5D16671E1AC73AE70005C5FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16671D1AC73AE70005C5FF /* AppDelegate.m */; };
+		5D1667241AC73AE80005C5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1667221AC73AE80005C5FF /* Main.storyboard */; };
+		5D1667261AC73AE80005C5FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1667251AC73AE80005C5FF /* Images.xcassets */; };
+		5D1667351AC73AE80005C5FF /* FHJAlarmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1667341AC73AE80005C5FF /* FHJAlarmsTests.m */; };
+		5D1667431AC73D3B0005C5FF /* FHJAlarmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1667421AC73D3B0005C5FF /* FHJAlarmManager.m */; };
+		5D1667461AC73D7E0005C5FF /* FHJAlarmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1667451AC73D7E0005C5FF /* FHJAlarmTableViewController.m */; };
+		5D16674A1AC73E630005C5FF /* FHJAlarmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1667481AC73E630005C5FF /* FHJAlarmDetailViewController.m */; };
+		5D16674B1AC73E630005C5FF /* FHJAlarmDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D1667491AC73E630005C5FF /* FHJAlarmDetailViewController.xib */; };
+		5D16674E1AC73F700005C5FF /* FHJAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16674D1AC73F700005C5FF /* FHJAlarm.m */; };
+		5D2C2DA41AC9A44900C4E907 /* FHJDaysTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C2DA31AC9A44900C4E907 /* FHJDaysTableViewController.m */; };
+		5D8D98451AD3921900F94F7C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D98441AD3921900F94F7C /* FBSDKCoreKit.framework */; };
+		5D8D98471AD3922300F94F7C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D98461AD3922300F94F7C /* FBSDKLoginKit.framework */; };
+		5D8D98491AD3922B00F94F7C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D98481AD3922B00F94F7C /* FBSDKShareKit.framework */; };
+		5D8D98521AD45E2B00F94F7C /* FHJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D98501AD45E2B00F94F7C /* FHJLoginViewController.m */; };
+		5D8D98531AD45E2B00F94F7C /* FHJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D98511AD45E2B00F94F7C /* FHJLoginViewController.xib */; };
+		5D9B3B221AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B3B201AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m */; };
+		5D9B3B231AC9E27E00C8CEF6 /* FHJAlarmNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B3B211AC9E27E00C8CEF6 /* FHJAlarmNameViewController.xib */; };
+		5D9B3B261AC9E3E900C8CEF6 /* FHJFocusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B3B251AC9E3E900C8CEF6 /* FHJFocusTableViewController.m */; };
+		5D9B3B2A1AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B3B281AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.m */; };
+		5DDB37441ACAE4B900C8B9CB /* FHJAlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB37431ACAE4B900C8B9CB /* FHJAlarmTableViewCell.xib */; };
+		5DDB374B1ACCC20800C8B9CB /* BNRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB374A1ACCC20800C8B9CB /* BNRImageStore.m */; };
+		5DDB374E1ACCE96000C8B9CB /* QuotesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB374D1ACCE96000C8B9CB /* QuotesManager.m */; };
+		5DDB37551ACDCB7C00C8B9CB /* Creativity_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB374F1ACDCB7C00C8B9CB /* Creativity_quotes.txt */; };
+		5DDB37561ACDCB7C00C8B9CB /* Diet_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB37501ACDCB7C00C8B9CB /* Diet_quotes.txt */; };
+		5DDB37571ACDCB7C00C8B9CB /* Exercise_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB37511ACDCB7C00C8B9CB /* Exercise_quotes.txt */; };
+		5DDB37581ACDCB7C00C8B9CB /* Life_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB37521ACDCB7C00C8B9CB /* Life_quotes.txt */; };
+		5DDB37591ACDCB7C00C8B9CB /* Love_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB37531ACDCB7C00C8B9CB /* Love_quotes.txt */; };
+		5DDB375A1ACDCB7C00C8B9CB /* Study_quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB37541ACDCB7C00C8B9CB /* Study_quotes.txt */; };
+		5DDB375E1ACDE14600C8B9CB /* FHJWallpaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB375C1ACDE14600C8B9CB /* FHJWallpaperViewController.m */; };
+		5DDB375F1ACDE14600C8B9CB /* FHJWallpaperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB375D1ACDE14600C8B9CB /* FHJWallpaperViewController.xib */; };
+		5DF0B6921AD484EB00424D14 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6911AD484EB00424D14 /* Media.xcassets */; };
+		5DF0B6961AD6BF1E00424D14 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */; };
+		5DF0B6981AD6BF7300424D14 /* w-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6971AD6BF7300424D14 /* w-logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D16672F1AC73AE80005C5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D16670D1AC73AE70005C5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D1667141AC73AE70005C5FF;
+			remoteInfo = FHJAlarms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D1667151AC73AE70005C5FF /* FHJAlarms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHJAlarms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1667191AC73AE70005C5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D16671A1AC73AE70005C5FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D16671C1AC73AE70005C5FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D16671D1AC73AE70005C5FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D1667231AC73AE80005C5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D1667251AC73AE80005C5FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D16672E1AC73AE80005C5FF /* FHJAlarmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHJAlarmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1667331AC73AE80005C5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1667341AC73AE80005C5FF /* FHJAlarmsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHJAlarmsTests.m; sourceTree = "<group>"; };
+		5D1667411AC73D3B0005C5FF /* FHJAlarmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJAlarmManager.h; sourceTree = "<group>"; };
+		5D1667421AC73D3B0005C5FF /* FHJAlarmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJAlarmManager.m; sourceTree = "<group>"; };
+		5D1667441AC73D7E0005C5FF /* FHJAlarmTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJAlarmTableViewController.h; sourceTree = "<group>"; };
+		5D1667451AC73D7E0005C5FF /* FHJAlarmTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJAlarmTableViewController.m; sourceTree = "<group>"; };
+		5D1667471AC73E630005C5FF /* FHJAlarmDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJAlarmDetailViewController.h; sourceTree = "<group>"; };
+		5D1667481AC73E630005C5FF /* FHJAlarmDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJAlarmDetailViewController.m; sourceTree = "<group>"; };
+		5D1667491AC73E630005C5FF /* FHJAlarmDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJAlarmDetailViewController.xib; sourceTree = "<group>"; };
+		5D16674C1AC73F700005C5FF /* FHJAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJAlarm.h; sourceTree = "<group>"; };
+		5D16674D1AC73F700005C5FF /* FHJAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJAlarm.m; sourceTree = "<group>"; };
+		5D2C2DA21AC9A44900C4E907 /* FHJDaysTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJDaysTableViewController.h; sourceTree = "<group>"; };
+		5D2C2DA31AC9A44900C4E907 /* FHJDaysTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJDaysTableViewController.m; sourceTree = "<group>"; };
+		5D8D98441AD3921900F94F7C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5D8D98461AD3922300F94F7C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5D8D98481AD3922B00F94F7C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		5D8D984F1AD45E2B00F94F7C /* FHJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJLoginViewController.h; sourceTree = "<group>"; };
+		5D8D98501AD45E2B00F94F7C /* FHJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJLoginViewController.m; sourceTree = "<group>"; };
+		5D8D98511AD45E2B00F94F7C /* FHJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJLoginViewController.xib; sourceTree = "<group>"; };
+		5D9B3B1F1AC9E27E00C8CEF6 /* FHJAlarmNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJAlarmNameViewController.h; sourceTree = "<group>"; };
+		5D9B3B201AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJAlarmNameViewController.m; sourceTree = "<group>"; };
+		5D9B3B211AC9E27E00C8CEF6 /* FHJAlarmNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJAlarmNameViewController.xib; sourceTree = "<group>"; };
+		5D9B3B241AC9E3E900C8CEF6 /* FHJFocusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJFocusTableViewController.h; sourceTree = "<group>"; };
+		5D9B3B251AC9E3E900C8CEF6 /* FHJFocusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJFocusTableViewController.m; sourceTree = "<group>"; };
+		5D9B3B271AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJALarmTableViewCell.h; sourceTree = "<group>"; };
+		5D9B3B281AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJALarmTableViewCell.m; sourceTree = "<group>"; };
+		5DDB37431ACAE4B900C8B9CB /* FHJAlarmTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJAlarmTableViewCell.xib; sourceTree = "<group>"; };
+		5DDB37491ACCC20800C8B9CB /* BNRImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRImageStore.h; sourceTree = "<group>"; };
+		5DDB374A1ACCC20800C8B9CB /* BNRImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRImageStore.m; sourceTree = "<group>"; };
+		5DDB374C1ACCE96000C8B9CB /* QuotesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotesManager.h; sourceTree = "<group>"; };
+		5DDB374D1ACCE96000C8B9CB /* QuotesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotesManager.m; sourceTree = "<group>"; };
+		5DDB374F1ACDCB7C00C8B9CB /* Creativity_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Creativity_quotes.txt; sourceTree = "<group>"; };
+		5DDB37501ACDCB7C00C8B9CB /* Diet_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Diet_quotes.txt; sourceTree = "<group>"; };
+		5DDB37511ACDCB7C00C8B9CB /* Exercise_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Exercise_quotes.txt; sourceTree = "<group>"; };
+		5DDB37521ACDCB7C00C8B9CB /* Life_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Life_quotes.txt; sourceTree = "<group>"; };
+		5DDB37531ACDCB7C00C8B9CB /* Love_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Love_quotes.txt; sourceTree = "<group>"; };
+		5DDB37541ACDCB7C00C8B9CB /* Study_quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Study_quotes.txt; sourceTree = "<group>"; };
+		5DDB375B1ACDE14600C8B9CB /* FHJWallpaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJWallpaperViewController.h; sourceTree = "<group>"; };
+		5DDB375C1ACDE14600C8B9CB /* FHJWallpaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJWallpaperViewController.m; sourceTree = "<group>"; };
+		5DDB375D1ACDE14600C8B9CB /* FHJWallpaperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJWallpaperViewController.xib; sourceTree = "<group>"; };
+		5DF0B6911AD484EB00424D14 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		5DF0B6971AD6BF7300424D14 /* w-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "w-logo.jpg"; path = "../../w-logo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D1667121AC73AE70005C5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8D98471AD3922300F94F7C /* FBSDKLoginKit.framework in Frameworks */,
+				5D8D98451AD3921900F94F7C /* FBSDKCoreKit.framework in Frameworks */,
+				5D8D98491AD3922B00F94F7C /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D16672B1AC73AE80005C5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D16670C1AC73AE70005C5FF = {
+			isa = PBXGroup;
+			children = (
+				5D8D98481AD3922B00F94F7C /* FBSDKShareKit.framework */,
+				5D8D98461AD3922300F94F7C /* FBSDKLoginKit.framework */,
+				5D8D98441AD3921900F94F7C /* FBSDKCoreKit.framework */,
+				5D1667171AC73AE70005C5FF /* FHJAlarms */,
+				5D1667311AC73AE80005C5FF /* FHJAlarmsTests */,
+				5D1667161AC73AE70005C5FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D1667161AC73AE70005C5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D1667151AC73AE70005C5FF /* FHJAlarms.app */,
+				5D16672E1AC73AE80005C5FF /* FHJAlarmsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1667171AC73AE70005C5FF /* FHJAlarms */ = {
+			isa = PBXGroup;
+			children = (
+				5D16671C1AC73AE70005C5FF /* AppDelegate.h */,
+				5D16671D1AC73AE70005C5FF /* AppDelegate.m */,
+				5DDB37491ACCC20800C8B9CB /* BNRImageStore.h */,
+				5DDB374A1ACCC20800C8B9CB /* BNRImageStore.m */,
+				5D16674C1AC73F700005C5FF /* FHJAlarm.h */,
+				5D16674D1AC73F700005C5FF /* FHJAlarm.m */,
+				5D1667471AC73E630005C5FF /* FHJAlarmDetailViewController.h */,
+				5D1667481AC73E630005C5FF /* FHJAlarmDetailViewController.m */,
+				5D1667491AC73E630005C5FF /* FHJAlarmDetailViewController.xib */,
+				5DF0B6911AD484EB00424D14 /* Media.xcassets */,
+				5D1667411AC73D3B0005C5FF /* FHJAlarmManager.h */,
+				5D1667421AC73D3B0005C5FF /* FHJAlarmManager.m */,
+				5D9B3B1F1AC9E27E00C8CEF6 /* FHJAlarmNameViewController.h */,
+				5D9B3B201AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m */,
+				5D9B3B211AC9E27E00C8CEF6 /* FHJAlarmNameViewController.xib */,
+				5D9B3B271AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.h */,
+				5D9B3B281AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.m */,
+				5DDB37431ACAE4B900C8B9CB /* FHJAlarmTableViewCell.xib */,
+				5DF0B6971AD6BF7300424D14 /* w-logo.jpg */,
+				5D1667441AC73D7E0005C5FF /* FHJAlarmTableViewController.h */,
+				5D1667451AC73D7E0005C5FF /* FHJAlarmTableViewController.m */,
+				5D2C2DA21AC9A44900C4E907 /* FHJDaysTableViewController.h */,
+				5D2C2DA31AC9A44900C4E907 /* FHJDaysTableViewController.m */,
+				5D9B3B241AC9E3E900C8CEF6 /* FHJFocusTableViewController.h */,
+				5D9B3B251AC9E3E900C8CEF6 /* FHJFocusTableViewController.m */,
+				5D1667251AC73AE80005C5FF /* Images.xcassets */,
+				5D1667221AC73AE80005C5FF /* Main.storyboard */,
+				5DDB374C1ACCE96000C8B9CB /* QuotesManager.h */,
+				5DDB374D1ACCE96000C8B9CB /* QuotesManager.m */,
+				5D1667181AC73AE70005C5FF /* Supporting Files */,
+				5DDB375B1ACDE14600C8B9CB /* FHJWallpaperViewController.h */,
+				5DDB375C1ACDE14600C8B9CB /* FHJWallpaperViewController.m */,
+				5DDB375D1ACDE14600C8B9CB /* FHJWallpaperViewController.xib */,
+				5D8D984F1AD45E2B00F94F7C /* FHJLoginViewController.h */,
+				5D8D98501AD45E2B00F94F7C /* FHJLoginViewController.m */,
+				5D8D98511AD45E2B00F94F7C /* FHJLoginViewController.xib */,
+				5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */,
+			);
+			path = FHJAlarms;
+			sourceTree = "<group>";
+		};
+		5D1667181AC73AE70005C5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DDB374F1ACDCB7C00C8B9CB /* Creativity_quotes.txt */,
+				5DDB37501ACDCB7C00C8B9CB /* Diet_quotes.txt */,
+				5DDB37511ACDCB7C00C8B9CB /* Exercise_quotes.txt */,
+				5DDB37521ACDCB7C00C8B9CB /* Life_quotes.txt */,
+				5DDB37531ACDCB7C00C8B9CB /* Love_quotes.txt */,
+				5DDB37541ACDCB7C00C8B9CB /* Study_quotes.txt */,
+				5D1667191AC73AE70005C5FF /* Info.plist */,
+				5D16671A1AC73AE70005C5FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D1667311AC73AE80005C5FF /* FHJAlarmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D1667341AC73AE80005C5FF /* FHJAlarmsTests.m */,
+				5D1667321AC73AE80005C5FF /* Supporting Files */,
+			);
+			path = FHJAlarmsTests;
+			sourceTree = "<group>";
+		};
+		5D1667321AC73AE80005C5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D1667331AC73AE80005C5FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D1667141AC73AE70005C5FF /* FHJAlarms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1667381AC73AE80005C5FF /* Build configuration list for PBXNativeTarget "FHJAlarms" */;
+			buildPhases = (
+				5D1667111AC73AE70005C5FF /* Sources */,
+				5D1667121AC73AE70005C5FF /* Frameworks */,
+				5D1667131AC73AE70005C5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHJAlarms;
+			productName = FHJAlarms;
+			productReference = 5D1667151AC73AE70005C5FF /* FHJAlarms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D16672D1AC73AE80005C5FF /* FHJAlarmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D16673B1AC73AE80005C5FF /* Build configuration list for PBXNativeTarget "FHJAlarmsTests" */;
+			buildPhases = (
+				5D16672A1AC73AE80005C5FF /* Sources */,
+				5D16672B1AC73AE80005C5FF /* Frameworks */,
+				5D16672C1AC73AE80005C5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D1667301AC73AE80005C5FF /* PBXTargetDependency */,
+			);
+			name = FHJAlarmsTests;
+			productName = FHJAlarmsTests;
+			productReference = 5D16672E1AC73AE80005C5FF /* FHJAlarmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D16670D1AC73AE70005C5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = FredHedz;
+				TargetAttributes = {
+					5D1667141AC73AE70005C5FF = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = HB8M55ZR9Z;
+					};
+					5D16672D1AC73AE80005C5FF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5D1667141AC73AE70005C5FF;
+					};
+				};
+			};
+			buildConfigurationList = 5D1667101AC73AE70005C5FF /* Build configuration list for PBXProject "FHJAlarms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D16670C1AC73AE70005C5FF;
+			productRefGroup = 5D1667161AC73AE70005C5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D1667141AC73AE70005C5FF /* FHJAlarms */,
+				5D16672D1AC73AE80005C5FF /* FHJAlarmsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D1667131AC73AE70005C5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDB37441ACAE4B900C8B9CB /* FHJAlarmTableViewCell.xib in Resources */,
+				5D1667261AC73AE80005C5FF /* Images.xcassets in Resources */,
+				5DDB37551ACDCB7C00C8B9CB /* Creativity_quotes.txt in Resources */,
+				5DDB37561ACDCB7C00C8B9CB /* Diet_quotes.txt in Resources */,
+				5D9B3B231AC9E27E00C8CEF6 /* FHJAlarmNameViewController.xib in Resources */,
+				5DDB37581ACDCB7C00C8B9CB /* Life_quotes.txt in Resources */,
+				5DDB37591ACDCB7C00C8B9CB /* Love_quotes.txt in Resources */,
+				5DDB375A1ACDCB7C00C8B9CB /* Study_quotes.txt in Resources */,
+				5DDB37571ACDCB7C00C8B9CB /* Exercise_quotes.txt in Resources */,
+				5D16674B1AC73E630005C5FF /* FHJAlarmDetailViewController.xib in Resources */,
+				5DF0B6921AD484EB00424D14 /* Media.xcassets in Resources */,
+				5D8D98531AD45E2B00F94F7C /* FHJLoginViewController.xib in Resources */,
+				5D1667241AC73AE80005C5FF /* Main.storyboard in Resources */,
+				5DDB375F1ACDE14600C8B9CB /* FHJWallpaperViewController.xib in Resources */,
+				5DF0B6981AD6BF7300424D14 /* w-logo.jpg in Resources */,
+				5DF0B6961AD6BF1E00424D14 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D16672C1AC73AE80005C5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1667111AC73AE70005C5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9B3B2A1AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.m in Sources */,
+				5D8D98521AD45E2B00F94F7C /* FHJLoginViewController.m in Sources */,
+				5D16674A1AC73E630005C5FF /* FHJAlarmDetailViewController.m in Sources */,
+				5D1667431AC73D3B0005C5FF /* FHJAlarmManager.m in Sources */,
+				5D16674E1AC73F700005C5FF /* FHJAlarm.m in Sources */,
+				5D16671E1AC73AE70005C5FF /* AppDelegate.m in Sources */,
+				5D9B3B221AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m in Sources */,
+				5D1667461AC73D7E0005C5FF /* FHJAlarmTableViewController.m in Sources */,
+				5DDB374B1ACCC20800C8B9CB /* BNRImageStore.m in Sources */,
+				5D2C2DA41AC9A44900C4E907 /* FHJDaysTableViewController.m in Sources */,
+				5D16671B1AC73AE70005C5FF /* main.m in Sources */,
+				5DDB374E1ACCE96000C8B9CB /* QuotesManager.m in Sources */,
+				5D9B3B261AC9E3E900C8CEF6 /* FHJFocusTableViewController.m in Sources */,
+				5DDB375E1ACDE14600C8B9CB /* FHJWallpaperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D16672A1AC73AE80005C5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1667351AC73AE80005C5FF /* FHJAlarmsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D1667301AC73AE80005C5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D1667141AC73AE70005C5FF /* FHJAlarms */;
+			targetProxy = 5D16672F1AC73AE80005C5FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D1667221AC73AE80005C5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1667231AC73AE80005C5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D1667361AC73AE80005C5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D1667371AC73AE80005C5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D1667391AC73AE80005C5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = /Users/HomeComputer/Documents/FacebookSDK;
+				INFOPLIST_FILE = FHJAlarms/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredhedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D16673A1AC73AE80005C5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = /Users/HomeComputer/Documents/FacebookSDK;
+				INFOPLIST_FILE = FHJAlarms/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredhedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D16673C1AC73AE80005C5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FHJAlarmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredhedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHJAlarms.app/FHJAlarms";
+			};
+			name = Debug;
+		};
+		5D16673D1AC73AE80005C5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FHJAlarmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredhedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHJAlarms.app/FHJAlarms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1667101AC73AE70005C5FF /* Build configuration list for PBXProject "FHJAlarms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1667361AC73AE80005C5FF /* Debug */,
+				5D1667371AC73AE80005C5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1667381AC73AE80005C5FF /* Build configuration list for PBXNativeTarget "FHJAlarms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1667391AC73AE80005C5FF /* Debug */,
+				5D16673A1AC73AE80005C5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D16673B1AC73AE80005C5FF /* Build configuration list for PBXNativeTarget "FHJAlarmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D16673C1AC73AE80005C5FF /* Debug */,
+				5D16673D1AC73AE80005C5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D16670D1AC73AE70005C5FF /* Project object */;
+}
