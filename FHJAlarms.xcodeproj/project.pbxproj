@@ -41,6 +41,8 @@
 		5DF0B6921AD484EB00424D14 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6911AD484EB00424D14 /* Media.xcassets */; };
 		5DF0B6961AD6BF1E00424D14 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */; };
 		5DF0B6981AD6BF7300424D14 /* w-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6971AD6BF7300424D14 /* w-logo.jpg */; };
+		7C2013EFB9DD6F20B9E8E1DF /* libPods-FHJAlarmsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40EDCF913EF616FB7BEE38D /* libPods-FHJAlarmsTests.a */; };
+		BB5015F156796B880D4861BE /* libPods-FHJAlarms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F1C7DC4236CE0EB60906B9 /* libPods-FHJAlarms.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E81AB00E8C1B9AD98F6133D /* Pods-FHJAlarms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHJAlarms.release.xcconfig"; path = "Pods/Target Support Files/Pods-FHJAlarms/Pods-FHJAlarms.release.xcconfig"; sourceTree = "<group>"; };
+		41BC64C0D0003D9705489BFA /* Pods-FHJAlarmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHJAlarmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FHJAlarmsTests/Pods-FHJAlarmsTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D1667151AC73AE70005C5FF /* FHJAlarms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHJAlarms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1667191AC73AE70005C5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D16671A1AC73AE70005C5FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +109,10 @@
 		5DF0B6911AD484EB00424D14 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		5DF0B6971AD6BF7300424D14 /* w-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "w-logo.jpg"; path = "../../w-logo.jpg"; sourceTree = "<group>"; };
+		62F1C7DC4236CE0EB60906B9 /* libPods-FHJAlarms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FHJAlarms.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A5C3A34183F019E4E48DDC /* Pods-FHJAlarmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHJAlarmsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHJAlarmsTests/Pods-FHJAlarmsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F40EDCF913EF616FB7BEE38D /* libPods-FHJAlarmsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FHJAlarmsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC141BEBCE15F0A3EAA31F0F /* Pods-FHJAlarms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHJAlarms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHJAlarms/Pods-FHJAlarms.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,7 @@
 				5D8D98471AD3922300F94F7C /* FBSDKLoginKit.framework in Frameworks */,
 				5D8D98451AD3921900F94F7C /* FBSDKCoreKit.framework in Frameworks */,
 				5D8D98491AD3922B00F94F7C /* FBSDKShareKit.framework in Frameworks */,
+				BB5015F156796B880D4861BE /* libPods-FHJAlarms.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +131,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2013EFB9DD6F20B9E8E1DF /* libPods-FHJAlarmsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A60DEB4EDE82D249B449748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC141BEBCE15F0A3EAA31F0F /* Pods-FHJAlarms.debug.xcconfig */,
+				2E81AB00E8C1B9AD98F6133D /* Pods-FHJAlarms.release.xcconfig */,
+				F1A5C3A34183F019E4E48DDC /* Pods-FHJAlarmsTests.debug.xcconfig */,
+				41BC64C0D0003D9705489BFA /* Pods-FHJAlarmsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D16670C1AC73AE70005C5FF = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +158,8 @@
 				5D1667171AC73AE70005C5FF /* FHJAlarms */,
 				5D1667311AC73AE80005C5FF /* FHJAlarmsTests */,
 				5D1667161AC73AE70005C5FF /* Products */,
+				4A60DEB4EDE82D249B449748 /* Pods */,
+				F3CE7EE2DC898EA022F62321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +248,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3CE7EE2DC898EA022F62321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F1C7DC4236CE0EB60906B9 /* libPods-FHJAlarms.a */,
+				F40EDCF913EF616FB7BEE38D /* libPods-FHJAlarmsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D1667381AC73AE80005C5FF /* Build configuration list for PBXNativeTarget "FHJAlarms" */;
 			buildPhases = (
+				1C2A290CFD0EA30CE7445EF5 /* [CP] Check Pods Manifest.lock */,
 				5D1667111AC73AE70005C5FF /* Sources */,
 				5D1667121AC73AE70005C5FF /* Frameworks */,
 				5D1667131AC73AE70005C5FF /* Resources */,
+				9A59C893695D6D4997C2596E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D16673B1AC73AE80005C5FF /* Build configuration list for PBXNativeTarget "FHJAlarmsTests" */;
 			buildPhases = (
+				9AC3ACB670213D52197C56B3 /* [CP] Check Pods Manifest.lock */,
 				5D16672A1AC73AE80005C5FF /* Sources */,
 				5D16672B1AC73AE80005C5FF /* Frameworks */,
 				5D16672C1AC73AE80005C5FF /* Resources */,
@@ -333,6 +368,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2A290CFD0EA30CE7445EF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FHJAlarms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A59C893695D6D4997C2596E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FHJAlarms/Pods-FHJAlarms-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FHJAlarms/Pods-FHJAlarms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC3ACB670213D52197C56B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FHJAlarmsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D1667111AC73AE70005C5FF /* Sources */ = {
@@ -493,6 +585,7 @@
 		};
 		5D1667391AC73AE80005C5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC141BEBCE15F0A3EAA31F0F /* Pods-FHJAlarms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -510,6 +603,7 @@
 		};
 		5D16673A1AC73AE80005C5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E81AB00E8C1B9AD98F6133D /* Pods-FHJAlarms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -527,6 +621,7 @@
 		};
 		5D16673C1AC73AE80005C5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A5C3A34183F019E4E48DDC /* Pods-FHJAlarmsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -547,6 +642,7 @@
 		};
 		5D16673D1AC73AE80005C5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BC64C0D0003D9705489BFA /* Pods-FHJAlarmsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

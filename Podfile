@@ -6,6 +6,7 @@ target 'FHJAlarms' do
   # use_frameworks!
 
   # Pods for FHJAlarms
+  pod 'FBSDKLoginKit'
 
   target 'FHJAlarmsTests' do
     inherit! :search_paths
