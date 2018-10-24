@@ -18,9 +18,6 @@
 		5D16674B1AC73E630005C5FF /* FHJAlarmDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D1667491AC73E630005C5FF /* FHJAlarmDetailViewController.xib */; };
 		5D16674E1AC73F700005C5FF /* FHJAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16674D1AC73F700005C5FF /* FHJAlarm.m */; };
 		5D2C2DA41AC9A44900C4E907 /* FHJDaysTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C2DA31AC9A44900C4E907 /* FHJDaysTableViewController.m */; };
-		5D8D98451AD3921900F94F7C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D98441AD3921900F94F7C /* FBSDKCoreKit.framework */; };
-		5D8D98471AD3922300F94F7C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D98461AD3922300F94F7C /* FBSDKLoginKit.framework */; };
-		5D8D98491AD3922B00F94F7C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8D98481AD3922B00F94F7C /* FBSDKShareKit.framework */; };
 		5D8D98521AD45E2B00F94F7C /* FHJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D98501AD45E2B00F94F7C /* FHJLoginViewController.m */; };
 		5D8D98531AD45E2B00F94F7C /* FHJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D8D98511AD45E2B00F94F7C /* FHJLoginViewController.xib */; };
 		5D9B3B221AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B3B201AC9E27E00C8CEF6 /* FHJAlarmNameViewController.m */; };
@@ -79,9 +76,6 @@
 		5D16674D1AC73F700005C5FF /* FHJAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJAlarm.m; sourceTree = "<group>"; };
 		5D2C2DA21AC9A44900C4E907 /* FHJDaysTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJDaysTableViewController.h; sourceTree = "<group>"; };
 		5D2C2DA31AC9A44900C4E907 /* FHJDaysTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJDaysTableViewController.m; sourceTree = "<group>"; };
-		5D8D98441AD3921900F94F7C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		5D8D98461AD3922300F94F7C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		5D8D98481AD3922B00F94F7C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		5D8D984F1AD45E2B00F94F7C /* FHJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHJLoginViewController.h; sourceTree = "<group>"; };
 		5D8D98501AD45E2B00F94F7C /* FHJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHJLoginViewController.m; sourceTree = "<group>"; };
 		5D8D98511AD45E2B00F94F7C /* FHJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJLoginViewController.xib; sourceTree = "<group>"; };
@@ -120,9 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D8D98471AD3922300F94F7C /* FBSDKLoginKit.framework in Frameworks */,
-				5D8D98451AD3921900F94F7C /* FBSDKCoreKit.framework in Frameworks */,
-				5D8D98491AD3922B00F94F7C /* FBSDKShareKit.framework in Frameworks */,
 				BB5015F156796B880D4861BE /* libPods-FHJAlarms.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,9 +143,6 @@
 		5D16670C1AC73AE70005C5FF = {
 			isa = PBXGroup;
 			children = (
-				5D8D98481AD3922B00F94F7C /* FBSDKShareKit.framework */,
-				5D8D98461AD3922300F94F7C /* FBSDKLoginKit.framework */,
-				5D8D98441AD3921900F94F7C /* FBSDKCoreKit.framework */,
 				5D1667171AC73AE70005C5FF /* FHJAlarms */,
 				5D1667311AC73AE80005C5FF /* FHJAlarmsTests */,
 				5D1667161AC73AE70005C5FF /* Products */,
