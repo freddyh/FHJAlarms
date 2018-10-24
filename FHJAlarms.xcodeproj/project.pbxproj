@@ -37,7 +37,6 @@
 		5DDB375F1ACDE14600C8B9CB /* FHJWallpaperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DDB375D1ACDE14600C8B9CB /* FHJWallpaperViewController.xib */; };
 		5DF0B6921AD484EB00424D14 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6911AD484EB00424D14 /* Media.xcassets */; };
 		5DF0B6961AD6BF1E00424D14 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */; };
-		5DF0B6981AD6BF7300424D14 /* w-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0B6971AD6BF7300424D14 /* w-logo.jpg */; };
 		7C2013EFB9DD6F20B9E8E1DF /* libPods-FHJAlarmsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40EDCF913EF616FB7BEE38D /* libPods-FHJAlarmsTests.a */; };
 		BB5015F156796B880D4861BE /* libPods-FHJAlarms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F1C7DC4236CE0EB60906B9 /* libPods-FHJAlarms.a */; };
 /* End PBXBuildFile section */
@@ -102,7 +101,6 @@
 		5DDB375D1ACDE14600C8B9CB /* FHJWallpaperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHJWallpaperViewController.xib; sourceTree = "<group>"; };
 		5DF0B6911AD484EB00424D14 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		5DF0B6951AD6BF1E00424D14 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		5DF0B6971AD6BF7300424D14 /* w-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "w-logo.jpg"; path = "../../w-logo.jpg"; sourceTree = "<group>"; };
 		62F1C7DC4236CE0EB60906B9 /* libPods-FHJAlarms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FHJAlarms.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A5C3A34183F019E4E48DDC /* Pods-FHJAlarmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHJAlarmsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHJAlarmsTests/Pods-FHJAlarmsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F40EDCF913EF616FB7BEE38D /* libPods-FHJAlarmsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FHJAlarmsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,7 +179,6 @@
 				5D9B3B271AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.h */,
 				5D9B3B281AC9F6EA00C8CEF6 /* FHJALarmTableViewCell.m */,
 				5DDB37431ACAE4B900C8B9CB /* FHJAlarmTableViewCell.xib */,
-				5DF0B6971AD6BF7300424D14 /* w-logo.jpg */,
 				5D1667441AC73D7E0005C5FF /* FHJAlarmTableViewController.h */,
 				5D1667451AC73D7E0005C5FF /* FHJAlarmTableViewController.m */,
 				5D2C2DA21AC9A44900C4E907 /* FHJDaysTableViewController.h */,
@@ -343,7 +340,6 @@
 				5D8D98531AD45E2B00F94F7C /* FHJLoginViewController.xib in Resources */,
 				5D1667241AC73AE80005C5FF /* Main.storyboard in Resources */,
 				5DDB375F1ACDE14600C8B9CB /* FHJWallpaperViewController.xib in Resources */,
-				5DF0B6981AD6BF7300424D14 /* w-logo.jpg in Resources */,
 				5DF0B6961AD6BF1E00424D14 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
