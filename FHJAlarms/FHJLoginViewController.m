@@ -38,6 +38,7 @@
     
     if ([[NSUserDefaults standardUserDefaults] valueForKey:deviceKey]) {
         [self presentAlarmController];
+        return;
     }
     
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
@@ -48,11 +49,6 @@
 
     [loginButton setFrame:fbRect];
     [self.view addSubview:loginButton];
-    
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
     
 }
 
@@ -69,7 +65,6 @@
     if (!error) {
         [self presentAlarmController];
     }
-    
 }
 
 - (void)loginButtonDidLogOut:(FBSDKLoginButton *)loginButton

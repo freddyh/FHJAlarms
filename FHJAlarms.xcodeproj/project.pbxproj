@@ -575,7 +575,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9298243JKU;
-				FRAMEWORK_SEARCH_PATHS = /Users/HomeComputer/Documents/FacebookSDK;
 				INFOPLIST_FILE = FHJAlarms/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -593,7 +592,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9298243JKU;
-				FRAMEWORK_SEARCH_PATHS = /Users/HomeComputer/Documents/FacebookSDK;
 				INFOPLIST_FILE = FHJAlarms/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

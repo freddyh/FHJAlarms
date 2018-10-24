@@ -94,7 +94,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
     NSMutableArray *selectedFocuses = [NSMutableArray new];
     
     [_selectedIndexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
-        NSString *focusString = _allFocuses[idx];
+        NSString *focusString = self->_allFocuses[idx];
         [selectedFocuses addObject:focusString];
     }];
     

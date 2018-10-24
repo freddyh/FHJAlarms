@@ -127,7 +127,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
     NSMutableArray *selectedDays = [NSMutableArray new];
     
     [_selectedIndexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
-        NSString *dayOfTheWeek = _daysArray[idx];
+        NSString *dayOfTheWeek = self->_daysArray[idx];
         [selectedDays addObject:dayOfTheWeek];
     }];
     

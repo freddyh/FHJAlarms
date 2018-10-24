@@ -32,11 +32,9 @@
                              didFinishLaunchingWithOptions:launchOptions];
 
     [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound categories:nil]];
-    // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    [self presentAlarmController];
+    [self presentLoginController];
     
 //    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0 green:0 blue:.4 alpha:1.0]];
 //    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
@@ -47,13 +45,12 @@
     return YES;
 }
 
-- (void)presentAlarmController
+- (void)presentLoginController
 {
-    FHJAlarmTableViewController *alarmController = [FHJAlarmTableViewController new];
-    _masterNav = [[UINavigationController alloc] initWithRootViewController:alarmController];
+    FHJLoginViewController *vc = [FHJLoginViewController new];
+    _masterNav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = _masterNav;
 }
-
 
 - (BOOL)application:(UIApplication *)application
             openURL:(NSURL *)url
@@ -65,7 +62,6 @@
                                                         sourceApplication:sourceApplication
                                                                annotation:annotation
                     ];
-    // Add any custom logic here.
     return handled;
 }
 
